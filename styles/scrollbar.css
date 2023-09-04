@@ -1,0 +1,22 @@
+.custom-scrollbar {
+  overflow-y: scroll;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+/* Change the color of the scrollbar thumb on hover */
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background-color: #e5e7eb;
+}
